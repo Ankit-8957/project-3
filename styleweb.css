@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#top-container {
+    background-color: #016bb4;
+    display: grid;
+    grid-template-areas:
+        'logo logo logo number'
+        'templete templete templete form';
+}
+
+/* logo */
+.logo {
+    grid-area: logo;
+    position: relative;
+    left: 200px;
+    padding: 34px;
+}
+
+/* number */
+.number {
+    grid-area: number;
+    padding: 63px 136px;
+}
+
+/* templete section */
+.templete {
+    grid-area: templete;
+    width: 779px;
+    position: relative;
+    left: 190px;
+    color: white;
+
+}
+
+#top-article {
+    display: flex;
+    width: 845px;
+}
+
+#temp-span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.2rem;
+    padding: 9px;
+}
+
+.temp {
+    font-size: 1.3rem;
+    padding: 4px 0px 0px 0px;
+}
+
+.temp-h {
+    padding: 4px 0px 0px 0px;
+    font-size: 2.5rem;
+}
+
+.templete h2 {
+    color: rgb(238, 238, 24);
+    font-family: 'Oswald', sans-serif;
+}
+
+.top {
+    padding: 7px 0px;
+}
+
+/* Form section */
+.form {
+    grid-area: form;
+    /* border: 4px solid black; */
+    padding: 40px 60px;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.16);
+    background-color: #E9F4FE;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form h3 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    padding: 20px 0px;
+}
+
+.form p {
+    text-align: center;
+    /* font-family: 'Oswald', sans-serif; */
+    /* padding: 20px 0px; */
+}
+
+#text {
+    display: flex;
+    padding: 11px 63px;
+    border-radius: 5px;
+    border: transparent;
+    box-shadow: -1px 2px 6px 1px rgb(148, 140, 140);
+    margin-top: 6px;
+}
+
+.btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 12px auto;
+    color: #ffffff;
+    background: #008aff;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #008aff;
+}
+
+.form a:hover {
+    color: rgb(82, 211, 246);
+}
+
+/* Second section */
+
+#detail {
+    display: grid;
+    grid-template-areas: 
+    'first-box second-box'
+    'third-box fourth-box'
+    'fifth-box sixth-box';
+    grid-gap: 5rem 10rem;
+    /* align-items: center; */
+    justify-content: center;
+    margin:64px 0px;
+}
+
+#first-box {
+    grid-area: first-box;
+    position: relative;
+    left: 40px;
+}
+
+#second-box {
+    grid-area: second-box;
+}
+
+#third-box {
+    grid-area: third-box;
+    position: relative;
+    left: 40px;
+}
+
+#fourth-box {
+    grid-area: fourth-box;
+}
+
+#fifth-box {
+    grid-area: fifth-box;
+    position: relative;
+    left: 40px;
+}
+
+#sixth-box {
+    grid-area: sixth-box;
+    
+}
+.item{
+    padding: 34px 35px;
+    /* border: 2px solid black; */
+    width: 533px;
+    border-radius: 30px;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.16);
+}
+/* Third Section */
+#Third-section{
+    display: block;
+    position: relative;
+    /* border: 2px solid black; */
+    flex-direction: column;
+    margin: 34px auto;
+    padding: 172px;
+    padding-top: 0px;
+    width: 1000px;
+    height: 500px;
+    border-radius: 30px;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.16);
+}
+.Third-section-top{
+    margin: 0px;
+    text-align: center;
+    background-color: #008aff;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.sec-body{
+    padding: 50px 40px;
+    font-size: 23px;
+}
+#Third-section table{
+    padding: 40px;
+    font-size: 20px;
+}
+#Third-section table th{
+    /* right: 160px; */
+    position: relative;
+    background-color: #33ff00;
+    
+}
+#Third-section table td{
+    padding: 6px;
+    background-color: #9bddea;
+    
+}
+/* About Institute section */
+.About{
+    padding: 50px 164px;
+    font-size:18px;
+}
+.About h4{
+    padding: 15px 0px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+hr{
+    width: 1200px;
+    display: block;
+    margin: auto;
+}
+/* footer */
+footer{
+    display: block;
+    width: 824px;
+    margin: auto;
+}
